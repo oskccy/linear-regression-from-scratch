@@ -1,4 +1,5 @@
 # Linear Regression with Gradient Descent + MinMax Normalization
+Linear Regression using batch gradient descent: FROM SCRATCH
 > By: [Oscar Sharaz Spencer](https://www.linkedin.com/in/oscar-sharaz/)
 
 ## Min-Max Normalization
