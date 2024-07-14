@@ -1,6 +1,22 @@
 # Linear Regression with Gradient Descent + MinMax Normalization
-Linear Regression using batch gradient descent: FROM SCRATCH!
+Linear Regression using batch gradient descent on the [Kaggle Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset), predicting the relation between total house area and house price: from scratch! Rendered in matplotlib.
 > By: [Oscar Sharaz Spencer](https://www.linkedin.com/in/oscar-sharaz/)
+
+## Index
+1. [Introduction](#introduction)
+2. [Min-Max Normalization](#min-max-normalization)
+    - [Normalizing Features](#normalizing-features)
+3. [Denormalizing Parameters](#denormalizing-parameters)
+4. [Gradient Descent](#gradient-descent)
+    - [Error Term](#error-term)
+    - [Gradient Descent Update Rules](#gradient-descent-update-rules)
+5. [Running the Predictions](#running-the-predictions)
+    - [main.py](#mainpy)
+    - [Installation and Execution](#installation-and-execution)
+
+## Introduction
+This repository contains an implementation of linear regression using batch gradient descent, developed from scratch. The `main.py` file is the main entry point for running the predictions. To get started, ensure you have Python 3 installed on your system and follow the installation and execution instructions below:
+
 
 ## Min-Max Normalization
 
@@ -47,3 +63,26 @@ $\[ b = b - \alpha \cdot \frac{\partial J}{\partial b} \]$
 Where:
 - $\( \alpha \)$ is the learning rate.
 - $\( n \)$ is the number of data points.
+
+## Running the Predictions
+
+### main.py
+The `main.py` file is the main entry point for running the linear regression predictions. It initializes the dataset, normalizes the features, runs the gradient descent algorithm, and outputs the predicted results.
+
+### Installation and Execution
+To run the predictions, follow these steps:
+
+1. Ensure you have Python 3 installed on your system.
+2. Clone this repository and navigate to the project directory.
+3. Run the following commands to install any necessary dependencies and execute the script:
+
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/linear-regression-from-scratch.git
+cd linear-regression-from-scratch
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the predictions
+python3 main.py
