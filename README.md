@@ -78,7 +78,7 @@ To run the predictions, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/linear-regression-from-scratch.git
+git clone https://github.com/oskccy/linear-regression-from-scratch.git
 cd linear-regression-from-scratch
 
 # Install dependencies
