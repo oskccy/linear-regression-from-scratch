@@ -67,7 +67,7 @@ Where:
 ## Running the Predictions
 
 ### main.py
-The `main.py` file is the main entry point for running the linear regression predictions. It initializes the dataset, normalizes the features, runs the gradient descent algorithm, and outputs the predicted results.
+The `main.py` file is the main entry point for running the linear regression predictions. It initializes the dataset, normalizes the features, runs the gradient descent algorithm on the given cost function, and outputs the predicted parameter weights into a linear relation.
 
 ### Installation and Execution
 To run the predictions, follow these steps:
