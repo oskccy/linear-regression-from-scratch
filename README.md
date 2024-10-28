@@ -1,4 +1,4 @@
-# Linear Regression with Gradient Descent + MinMax Normalization
+# Linear Regression with Batch Gradient Descent & MinMax Normalization
 Linear Regression using batch gradient descent on the [Kaggle Housing Prices Dataset](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset), predicting the relation between total house area and house price: from scratch! Rendered in matplotlib.
 > By: [Oscar Sharaz Spencer](https://www.linkedin.com/in/oscar-sharaz/)
 
